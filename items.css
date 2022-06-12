@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Sans+Pro&display=swap");
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+}
+
+.item {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px -2px black;
+}
+
+.item-name,
+.fact-line {
+  background-color: rgb(42, 42, 190);
+  color: white;
+}
+
+.item-name {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.add-item {
+  background-color: rgb(33, 34, 136);
+  color: white;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .item * {
+        font-size: larger;
+    }
+    .item {
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+}

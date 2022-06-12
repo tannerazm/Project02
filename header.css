@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer&family=Open+Sans&family=Permanent+Marker&family=Source+Sans+Pro&display=swap');
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav {
+    background-color: #44b;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+.full-width {
+    display: none;
+}
+
+.short-width {
+    flex: none;
+}
+
+i.material-icons {
+    background-color: #44b;
+    margin-left: -10px;
+    height: 27px;
+}
+
+.short-width {
+    display: flex;
+}
+
+@media screen and (min-width: 768px){
+    .horizontal.nav-list.short-width {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .horizontal.nav-list.full-width {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .full-width {
+        display: flex;
+    }
+    .short-width {
+        display: flex;
+    }
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 5px;
+    border-right: 1px white solid;
+}
+
+.nav-list li:last-of-type a {
+    border-right: none;
+}
+
+.sub-nav {
+    display: flex;
+}
+
+.search-form {
+    display: flex;
+    width: 100%;
+    padding: 20px 20px 20px 5px;
+}
+
+input, button {
+    margin: 5px;
+    border: none; 
+}
+
+input {
+    border-bottom: 1px #44b solid;
+    flex-grow: 1;
+    margin-left: 85px;
+}
+
+.company-name {
+color: #44b;
+margin-left: 65px;
+font-size: 2.5em;
+font-family: 'IM Fell Great Primer', serif;
+margin-top: 20px;
+}
+
+.credit-offer {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #eee;
+    background-color: red;
+    width: 200px;
+    height: 36px;
+    font-size: 16px;
+    text-align: center;
+    flex-shrink: 0;
+    margin-top: 24px;
+    margin-right: 12px;
+    padding-top: 7px;
+}

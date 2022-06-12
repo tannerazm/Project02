@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=IM+Fell+Great+Primer&family=Open+Sans&family=Permanent+Marker&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  header, footer { 
+    flex: none; 
+  }
+  
+  main {
+    display: flex;
+    flex: 1 0 auto;
+  }

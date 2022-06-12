@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #225;
+    padding: 1rem;
+    font-family: 'Dosis', sans-serif;
+    justify-content: center;
+}
+
+section {
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+section:last-of-type {
+    margin-right: none;
+}
+
+.footertitles {
+    color: white;
+    border-bottom: 1px white solid;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: smaller;
+    letter-spacing: 5px;
+}
+
+
+.footerlinks {
+    font-size: smaller;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footerlinks:hover {
+    text-decoration: underline;
+}
